@@ -1,0 +1,10 @@
+.img-inline {
+    vertical-align: middle;
+    height: 1.5em;
+    margin: 0 !important;
+}
+
+/* table borders look weird with row fragments, use .no-borders to remove borders between table row */
+.reveal table.no-borders tr td {
+    border-bottom: none;
+}
