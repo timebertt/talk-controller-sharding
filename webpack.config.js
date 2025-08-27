@@ -27,6 +27,11 @@ if (process.env.NETLIFY) {
   }
 }
 
+let canonicalURL = 'https://talks.timebertt.dev/controller-sharding/';
+if (process.env.BRANCH && process.env.BRANCH !== 'main') {
+  canonicalURL += process.env.BRANCH + '/';
+}
+
 module.exports = {
   mode: devMode ? 'development' : 'production',
   entry: './index.js',
@@ -62,7 +67,7 @@ module.exports = {
     new webpack.DefinePlugin({
       // In development mode, use the browser's location as the QR code URL.
       // This is useful for opening the slides on a mobile device while editing.
-      SLIDES_URL: devMode ? 'window.location.href' : JSON.stringify('https://talks.timebertt.dev/controller-sharding/' + process.env.BRANCH)
+      SLIDES_URL: devMode ? 'window.location.href' : JSON.stringify(canonicalURL)
     })
   ].concat(devMode ? [] : [new MiniCssExtractPlugin({
     filename: '[name].[contenthash].css',

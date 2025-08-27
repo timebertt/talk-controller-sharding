@@ -1,8 +1,14 @@
 # Beyond the Limits: Scaling Kubernetes Controllers Horizontally
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/315eaf9d-3989-4542-b821-3703e5651bc9/deploy-status)](https://app.netlify.com/projects/talk-controller-sharding/deploys)
+
+Take me to the latest version of the [slides](https://talks.timebertt.dev/controller-sharding/)!
+
 ## About
 
 This is a talk by [@timebertt](https://github.com/timebertt) at [ContainerDays 2025](https://www.containerdays.io/) in Hamburg ([event agenda](https://www.containerdays.io/containerdays-conference-2025/agenda/#sz-session-896315)).
+
+Take me to the [slides of the event](https://talks.timebertt.dev/controller-sharding/containerdays-2025/)!
 
 ### Abstract
 
