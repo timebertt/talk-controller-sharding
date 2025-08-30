@@ -1,4 +1,6 @@
-# Questions?
+## Questions?
+
+<!-- TODO: consider moving this to the beginning -->
 
 Slides Available Online:
 
@@ -19,6 +21,7 @@ Get in touch:
 
 - LinkedIn: [@timebertt](https://www.linkedin.com/in/timebertt)
 - Kubernetes Slack: [@timebertt](https://kubernetes.slack.com/team/UF8C35Z0D)
+- Email: timebertt@gmail.com
 
 </td>
 <td>
@@ -30,3 +33,5 @@ Find the project on GitHub:
 </td>
 </tr>
 </table>
+
+<!-- TODO: live star count badge -->
