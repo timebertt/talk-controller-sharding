@@ -33,7 +33,7 @@ vvv
 
 ## 3) Shard Lease
 
-```yaml[|5|6,9]
+```yaml [|5|6,9]
 apiVersion: coordination.k8s.io/v1
 kind: Lease
 metadata:
@@ -52,7 +52,7 @@ vvv
 
 ## 3) Shard Lease (Go)
 
-```go[1-6|8-16|9-11]
+```go [1-6|8-16|9-11]
 shardLease, err := shardlease.NewResourceLock(restConfig, shardlease.Options{
   ControllerRingName: "webhosting-operator",
 })
@@ -84,7 +84,7 @@ vvv
 
 ## 4) Filter Watch Cache (Go)
 
-```go[1-4|7-9]
+```go [1-4|7-9]
 labelSelector := labels.SelectorFromSet(labels.Set{
   // shard.alpha.sharding.timebertt.dev/webhosting-operator=<shard-name>
   shardingv1alpha1.LabelShard("webhosting-operator"): shardLease.Identity(),
@@ -113,7 +113,7 @@ vvv
 
 ## 5) Drain Operations (Go)
 
-```go[|3|3,7]
+```go [|3|3,7]
 builder.ControllerManagedBy(mgr).
   For(&webhostingv1alpha1.Website{}, builder.WithPredicates(
     WebsitePredicate(),
@@ -128,7 +128,7 @@ vvv
 
 ## 5) Drain Operations (Go)
 
-```go[3|7-11]
+```go [3|7-11]
 builder.ControllerManagedBy(mgr).
   For(&webhostingv1alpha1.Website{}, builder.WithPredicates(
     shardcontroller.Predicate(controllerRing, shardName, WebsitePredicate()),

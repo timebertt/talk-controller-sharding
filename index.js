@@ -12,7 +12,7 @@ import QRCode from './reveal/plugin/slides-qr-code.js';
 import './custom.css';
 import 'reveal.js/dist/reset.css';
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/dist/theme/league.css';
+import 'reveal.js/dist/theme/white.css';
 import 'highlight.js/styles/obsidian.css';
 
 // import all markdown files from ./content
@@ -31,5 +31,8 @@ Reveal.initialize({
   navigationMode: 'default',
   slideNumber: true,
   // make hash links match slide number (zero-indexed by default)
-  hashOneBasedIndex: true
+  hashOneBasedIndex: true,
+
+  width: 1200,
+  height: 700,
 });

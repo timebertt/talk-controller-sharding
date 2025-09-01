@@ -8,3 +8,8 @@
 .reveal table.no-borders tr td {
     border-bottom: none;
 }
+
+/* stretch code blocks horizontally */
+pre.code-wrapper {
+    width: 100% !important;
+}
