@@ -1,4 +1,4 @@
-# Design
+# Sharding Design
 
 vvv
 
@@ -20,3 +20,5 @@ vvv
 vvv
 
 ## Demo
+
+<em>Kubernetes Controller Sharding</em>

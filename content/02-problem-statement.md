@@ -2,7 +2,7 @@
 
 vvv
 
-## Problem Statement
+## Scalability Challenges
 
 - Controllers must prevent conflicts
 - Perform leader election
@@ -14,3 +14,5 @@ vvv
 vvv
 
 ## Demo
+
+<em>Leader Election</em>
