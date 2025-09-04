@@ -9,6 +9,20 @@ vvv
 - Running controllers at scale
 - Master’s thesis: “Horizontally Scalable Kubernetes Controllers”
 
+<table style="width: 100%;">
+<tr>
+<td style="width:50%;">
+
+![STACKIT logo](../assets/stackit.svg)
+
+</td>
+<td style="width:50%;">
+
+![Gardener logo](../assets/gardener.svg)
+
+</td>
+</table>
+
 vvv
 
 ## Controller Basics
