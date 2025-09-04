@@ -104,6 +104,7 @@ if err != nil {
 vvv
 
 ## 5) Drain Operations
+
 Stop reconciling objects with this label and remove the labels:
 
 ```yaml
@@ -114,7 +115,9 @@ vvv
 
 ## 5) Drain Operations (Go)
 
-```go [|3|3,7]
+<!-- .slide: data-auto-animate -->
+
+```go [|3]
 builder.ControllerManagedBy(mgr).
   For(&webhostingv1alpha1.Website{}, builder.WithPredicates(
     WebsitePredicate(),
@@ -124,12 +127,33 @@ builder.ControllerManagedBy(mgr).
     reconciler,
   )
 ```
+<!-- .element: data-id="code-animation" -->
 
 vvv
 
 ## 5) Drain Operations (Go)
 
-```go [3|7-11]
+<!-- .slide: data-auto-animate -->
+
+```go [3|7]
+builder.ControllerManagedBy(mgr).
+  For(&webhostingv1alpha1.Website{}, builder.WithPredicates(
+    shardcontroller.Predicate(controllerRing, shardName, WebsitePredicate()),
+  )).
+  Owns(&appsv1.Deployment{}, builder.WithPredicates(DeploymentPredicate())).
+  Complete(
+    reconciler,
+  )
+```
+<!-- .element: data-id="code-animation" -->
+
+vvv
+
+## 5) Drain Operations (Go)
+
+<!-- .slide: data-auto-animate -->
+
+```go [7-11]
 builder.ControllerManagedBy(mgr).
   For(&webhostingv1alpha1.Website{}, builder.WithPredicates(
     shardcontroller.Predicate(controllerRing, shardName, WebsitePredicate()),
@@ -143,6 +167,7 @@ builder.ControllerManagedBy(mgr).
       MustBuild(reconciler),
   )
 ```
+<!-- .element: data-id="code-animation" -->
 
 vvv
 
