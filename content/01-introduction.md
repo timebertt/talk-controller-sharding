@@ -12,14 +12,10 @@ vvv
 <table style="width: 100%;">
 <tr>
 <td style="width:50%;">
-
-![STACKIT logo](../assets/stackit.svg)
-
+<img alt="STACKIT logo" src="../assets/stackit.svg">
 </td>
 <td style="width:50%;">
-
-![Gardener logo](../assets/gardener.svg)
-
+<img alt="Gardener logo" src="../assets/gardener.svg">
 </td>
 </tr>
 </table>

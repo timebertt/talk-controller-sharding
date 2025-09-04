@@ -7,33 +7,49 @@
 module.exports = function (source) {
   // Tell webpack this loader is asynchronous.
   const callback = this.async();
-  const imageRegex = /!\[(.*?)]\((.*?)\)/g;
+  const markdownImageRegex = /!\[(.*?)]\((.*?)\)/g;
+  const htmlImageRegex = /<img\s+[^>]*src=["']([^"']+)["'][^>]*>/g;
 
-  const promises = [];
-  let match;
-
-  // Create a promise for each local image found.
-  while ((match = imageRegex.exec(source)) !== null) {
-    const [fullMatch, altText, imagePath] = match;
-
+  function processImage(match, type) {
+    let fullMatch, imagePath, altText;
+    if (type === 'markdown') {
+      [fullMatch, altText, imagePath] = match;
+    } else {
+      [fullMatch, imagePath] = match;
+    }
     // Ignore external images.
     if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
-      continue;
+      return;
     }
 
-    const promise = new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
       // Use webpack's importModule to process the image path.
       // The result of the file-loader will be the final image path in source.default.
       this.importModule(imagePath, this.getOptions(), (err, source) => {
         if (err) return reject(err);
-        // Resolve the promise with the original text and its replacement.
+        let replacement;
+        if (type === 'markdown') {
+          replacement = `![${altText}](${source.default})`;
+        } else {
+          replacement = fullMatch.replace(imagePath, source.default);
+        }
         resolve({
           original: fullMatch,
-          replacement: `![${altText}](${source.default})`
+          replacement
         });
       });
     });
-    promises.push(promise);
+  }
+
+  const promises = [];
+  let match;
+  while ((match = markdownImageRegex.exec(source)) !== null) {
+    const promise = processImage.call(this, match, 'markdown');
+    if (promise) promises.push(promise);
+  }
+  while ((match = htmlImageRegex.exec(source)) !== null) {
+    const promise = processImage.call(this, match, 'html');
+    if (promise) promises.push(promise);
   }
 
   // Process all image imports.

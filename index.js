@@ -7,7 +7,8 @@ import Notes from 'reveal.js/plugin/notes/notes.esm.js';
 import Search from 'reveal.js/plugin/search/search.esm.js';
 import Zoom from 'reveal.js/plugin/zoom/zoom.esm.js';
 import GitHubButtons from './reveal/plugin/github-buttons';
-import QRCode from './reveal/plugin/slides-qr-code.js';
+import QRCode from './reveal/plugin/qr-code.js';
+import SlidesQRCode from './reveal/plugin/slides-qr-code.js';
 
 // styles
 import './custom.css';
@@ -24,7 +25,7 @@ import 'highlight.js/styles/obsidian.css';
 
 // initialize reveal.js and plugins
 Reveal.initialize({
-  plugins: [Markdown, Highlight, Notes, Search, Zoom, GitHubButtons, QRCode],
+  plugins: [Markdown, Highlight, Notes, Search, Zoom, GitHubButtons, QRCode, SlidesQRCode],
   hash: true,
   history: true,
   center: true,
