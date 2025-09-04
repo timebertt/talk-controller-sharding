@@ -13,3 +13,9 @@
 pre.code-wrapper {
     width: 100% !important;
 }
+
+/* more space between list items */
+.reveal li {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}

@@ -5,14 +5,15 @@ vvv
 ## 1) Install Sharding Components
 
 ```bash
-kubectl apply --server-side –k "https://github.com/timebertt/kubernetes-controllersharding//config/default?ref=main"
+kubectl apply --server-side –k \
+  "https://github.com/timebertt/kubernetes-controller-sharding//config/default"
 ```
 
 vvv
 
 ## 2) ControllerRing
 
-```yaml
+```yaml [|7-8|9-14]
 apiVersion: sharding.timebertt.dev/v1alpha1
 kind: ControllerRing
 metadata:
