@@ -21,6 +21,7 @@ vvv
 ![Gardener logo](../assets/gardener.svg)
 
 </td>
+</tr>
 </table>
 
 vvv
