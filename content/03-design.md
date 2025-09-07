@@ -15,7 +15,7 @@ vvv
 
 ## Architecture
 
-![Sharding Architecture](../assets/architecture.svg)
+<img alt="Sharding Architecture" src="../assets/architecture.svg" class="r-stretch" data-preview-image>
 
 vvv
 
