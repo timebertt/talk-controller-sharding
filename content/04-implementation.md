@@ -173,4 +173,6 @@ vvv
 
 ## Summary
 
-![Commit summary: make controller ready for sharding](../assets/implement-sharding-summary.png) <!-- .element width="80%" class="r-frame" -->
+<a href="https://github.com/timebertt/kubernetes-controller-sharding/commit/bc60add76f7fefe2b9f56414f570f9b36d3f03b4">
+<img alt="Commit summary: make controller ready for sharding" src="../assets/implement-sharding-summary.png" style="width: 80%;" class="r-frame">
+</a>
