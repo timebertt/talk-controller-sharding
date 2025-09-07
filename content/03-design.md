@@ -1,5 +1,7 @@
 # Sharding Design
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 vvv
 
 ## Key Features
@@ -20,5 +22,7 @@ vvv
 vvv
 
 ## Demo
+
+<!-- .slide: data-background-color="#495057" -->
 
 <em>Kubernetes Controller Sharding</em>

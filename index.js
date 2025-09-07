@@ -31,6 +31,8 @@ Reveal.initialize({
   center: true,
   controls: true,
   navigationMode: 'default',
+  // disable scroll view on mobile devices
+  scrollActivationWidth: null,
   slideNumber: true,
   // make hash links match slide number (zero-indexed by default)
   hashOneBasedIndex: true,

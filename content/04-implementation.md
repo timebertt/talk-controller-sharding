@@ -1,5 +1,7 @@
 # Implementation
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 vvv
 
 ## 1) Install Sharding Components
@@ -172,6 +174,8 @@ builder.ControllerManagedBy(mgr).
 vvv
 
 ## Summary
+
+<!-- .slide: data-background-color="#495057" -->
 
 <a href="https://github.com/timebertt/kubernetes-controller-sharding/commit/bc60add76f7fefe2b9f56414f570f9b36d3f03b4">
 <img alt="Commit summary: make controller ready for sharding" src="../assets/implement-sharding-summary.png" style="width: 80%;" class="r-frame">

@@ -2,7 +2,7 @@
     vertical-align: middle;
 }
 
-.img-inline {
+.reveal .img-inline {
     height: 1.5em;
     margin: 0 !important;
 }
@@ -13,7 +13,7 @@
 }
 
 /* stretch code blocks horizontally */
-pre.code-wrapper {
+.reveal pre.code-wrapper {
     width: 100% !important;
 }
 

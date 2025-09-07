@@ -1,5 +1,7 @@
 # Conclusion
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 vvv
 
 ## Conclusion

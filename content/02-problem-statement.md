@@ -1,5 +1,7 @@
 # Problem Statement
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 vvv
 
 ## Scalability Challenges
@@ -14,5 +16,7 @@ vvv
 vvv
 
 ## Demo
+
+<!-- .slide: data-background-color="#495057" -->
 
 <em>Leader Election</em>

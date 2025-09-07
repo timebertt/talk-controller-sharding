@@ -1,5 +1,7 @@
 # Beyond the Limits
 
-## Scaling Kubernetes Controllers Horizontally
+## <em>Scaling Kubernetes Controllers Horizontally</em>
 
-[Tim Ebert](https://github.com/timebertt), STACKIT
+Tim Ebert, STACKIT
+
+<!-- .slide: data-background-color="#1f1e24" -->

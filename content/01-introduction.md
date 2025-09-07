@@ -1,5 +1,7 @@
 # Introduction
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 Notes:
 
 - Who has ever used a Kubernetes operator in their clusters?
@@ -42,5 +44,7 @@ Controllers facilitate declarative state management:
 vvv
 
 ## Demo
+
+<!-- .slide: data-background-color="#495057" -->
 
 <em>The webhosting-operator</em>

@@ -1,14 +1,18 @@
 # Questions?
 
+<!-- .slide: data-background-color="#daeaf9" -->
+
 vvv
 
-Star the project on GitHub!
+## Leave a star!
 
 <table style="width: 100%;">
 <tr>
 <td style="width: 50%;">
 
-<a href="https://github.com/timebertt/kubernetes-controller-sharding" class="qr-code"></a>
+<a href="https://github.com/timebertt/kubernetes-controller-sharding" class="qr-code">
+<img class="r-frame">
+</a>
 
 </td>
 <td style="width: 50%; vertical-align: top; padding-top: 2em;">
@@ -30,9 +34,10 @@ Star the project on GitHub!
 
 <!-- .slide: data-visibility="uncounted" -->
 
-Slides Available Online:
+## Slides Available Online
 
-<img class="slides-qr-code"></img>
-<!-- .element: class="r-stretch" -->
+<div class="r-stretch">
+<img class="slides-qr-code">
+</div>
 
 <a class="slides-qr-code"></a>
