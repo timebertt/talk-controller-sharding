@@ -22,3 +22,8 @@
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
+
+/* prevent table data from breaking */
+.reveal .table-no-wrap td {
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
