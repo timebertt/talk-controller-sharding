@@ -1,5 +1,11 @@
 # Introduction
 
+Notes:
+
+- Who has ever used a Kubernetes operator in their clusters?
+- Who has ever implemented an operator or custom controller?
+- Who runs custom controllers in production?
+
 vvv
 
 ## Context
