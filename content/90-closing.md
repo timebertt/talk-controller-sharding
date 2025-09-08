@@ -6,16 +6,15 @@ vvv
 
 ## Leave a star!
 
-<table style="width: 100%;">
-<tr>
-<td style="width: 50%;">
+<div style="display: flex; align-items: center; width: 100%; height: 100%;">
 
-<a href="https://github.com/timebertt/kubernetes-controller-sharding" class="qr-code">
-<img class="r-frame">
+<div style="width: 50%;">
+<a href="https://github.com/timebertt/kubernetes-controller-sharding" class="qr-code" style="width: 100%; height: 100%; object-fit: contain;">
+<img class="r-frame" style="height: 100%; width: 100%;">
 </a>
+</div>
 
-</td>
-<td style="width: 50%; vertical-align: top; padding-top: 2em;">
+<div style="width: 50%; text-align: left; padding-left: 1em;">
 
 <b>Tim Ebert, STACKIT</b>
 
@@ -26,9 +25,9 @@ vvv
 
 <a href="https://kubernetes.slack.com/team/UF8C35Z0D"><img src="../assets/slack.png" alt="Slack" class="img-inline"> @timebertt</a>
 
-</td>
-</tr>
-</table>
+</div>
+
+</div>
 
 ---
 
