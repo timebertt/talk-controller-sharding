@@ -17,73 +17,17 @@ vvv
 
 ## Architecture
 
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-1.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-2.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-3.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-4.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-5.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-6.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-7.svg" class="r-stretch" data-preview-image>
-
-vvv
-
-## Architecture
-
-<!-- .slide: data-auto-animate data-auto-animate-duration="0" -->
-
-<img alt="Sharding Architecture" src="../assets/architecture-step-8.svg" class="r-stretch" data-preview-image>
+<div class="r-stack r-stretch">
+<img alt="Sharding Architecture" src="../assets/architecture.svg" data-preview-image>
+<div class="overlay-box fragment fade-in-then-out" style="top: 298px; left: 430px; height: 160px; width: 216px;"></div>
+<div class="overlay-box fragment fade-in-then-out" style="top: 298px; left: 430px; height: 160px; width: 672px;"></div>
+<div class="overlay-box fragment fade-in-then-out" style="top: 298px; left: 430px; height: 335px; width: 216px;"></div>
+<div class="overlay-box fragment fade-in-then-out" style="top: 108px; left: 422px; height: 528px; width: 227px;"></div>
+<div class="overlay-box fragment" style="top: 297px; left: 78px; height: 161px; width: 236px;"></div>
+<div class="overlay-box fragment" style="top: 106px; left: 78px; height: 123px; width: 236px;"></div>
+<div class="overlay-box fragment" style="top: 156px; left: 434px; height: 21px; width: 172px;"></div>
+<div class="overlay-box fragment" style="top: 354px; left: 447px; height: 34px; width: 180px;"></div>
+</div>
 
 vvv
 

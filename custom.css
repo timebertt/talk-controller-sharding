@@ -27,3 +27,9 @@
 .reveal .table-no-wrap td {
     white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
+
+/* overlay boxes in diagrams */
+.reveal .overlay-box {
+    position: absolute;
+    border: 5px solid #26407B;
+}
